@@ -36,6 +36,10 @@
         * MaxFrequency, Any limitations for max frequency for that cluster.
     -->
 
+    <!-- For targets sharing the same platfrom, we can have seperate config tag for each
+         of those targets with different number in the Config tag and basing on the socId
+         of the target device, we decide which configs to consider. -->
+
     <Config1>
 
          <TargetInfo

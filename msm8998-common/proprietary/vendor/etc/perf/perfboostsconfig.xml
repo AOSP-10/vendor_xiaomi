@@ -21,9 +21,6 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
-        <!-- CPUBW_MIN_FREQ resource opcode, value-->
-        <!-- POWER COLLAPSE resource opcode, value-->
-        <!-- STORAGE CLK SCALING resource opcode, value-->
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
@@ -113,6 +110,10 @@
         <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
+        <!-- ABOVE_HISPEED_DELAY_BIG resource opcode, value-->
+        <!-- IO_IS_BUSY_BIG resource opcode, value-->
+        <!-- SCHED FREQ_AGGR_THRH resource opcode,value-->
+        <!-- GPU MIN-FREQUENCY resource opcode,value-->
 
         <!-- Type="4", Pre-Fling boost -->
         <Config
